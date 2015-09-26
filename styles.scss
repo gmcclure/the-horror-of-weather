@@ -1,0 +1,52 @@
+body {
+  background: url(https://s3-us-west-2.amazonaws.com/gmc-data/Misc/temp_images/60-69.gif) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font: 16px 'IM Fell English', serif;
+}
+
+h1 {
+  margin-top: 0.1em;
+  font-size: 3.5rem;
+}
+
+.aligner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner-item {
+  max-width: 50%;
+}
+
+.aligner-item-top {
+  align-self: flex-start;
+}
+
+.aligner-item-bottom {
+  align-self: flex-end;
+}
+
+#weather-display {
+  border-radius: 0.8em;
+  opacity: 0;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#temperature {
+  font-size: 3rem;
+}
+
+.weather-detail {
+  font-size: 1.9rem;
+  font-variant: small-caps;
+}
+
+#temp-converter {
+  color: black;
+  font-variant: small-caps;
+  margin-top: 1.5rem;
+}

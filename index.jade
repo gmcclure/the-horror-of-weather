@@ -1,0 +1,26 @@
+  link(href='http://fonts.googleapis.com/css?family=IM+Fell+English', rel='stylesheet', type='text/css')
+
+  div(class='aligner')
+    div(class='aligner-item aligner-item-top')
+    div(id='weather-display' class='aligner-item')
+      h1 The Horror of Weather
+      div(id='addr')
+      div(id='temperature')
+        span(id='unitval')
+        sup &deg;
+        span(id='unitsign')
+        span(id='weathericon')
+      div(id='conditions' class='weather-detail')
+        | conditions &mdash; 
+        span(class='desc')
+      div(id='wind' class='weather-detail')
+        | wind &mdash; 
+        span(id='direction')
+        | &nbsp;
+        span(id='wVal')
+        | &nbsp;
+        span(id='wUnits')
+
+      button(id='temp-converter' class='btn') Metric
+
+    div(class='aligner-item aligner-item-bottom')
